@@ -36,7 +36,7 @@ const InputForm = () => {
 
                 <div className="flex justify-between mb-3">
                         <label htmlFor="address" className=''>Address</label>
-                        <textarea className='w-[250px] input-box'  name="" id="address" cols="" rows="3"></textarea>
+                        <textarea className='w-[250px] input-box'  name="" id="address" cols="" ></textarea>
                 </div>
 
 

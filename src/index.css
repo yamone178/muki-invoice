@@ -9,6 +9,6 @@
 
 @layer components{
   .input-box{
-    @apply w-[200px] border-2 border-pink-300  focus:outline-pink-500;
+    @apply w-[200px] border-b-2  border-pink-300  focus:outline-none focus:border-b-pink-500;
   }
 }
