@@ -7,8 +7,16 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+
+
+table tr td input {
+  background-color: #f5dcee4d !important;
+  border-radius:  15px !important;
+
+}
+
 @layer components{
   .input-box{
-    @apply w-[200px] border-b-2  border-pink-300  focus:outline-none focus:border-b-pink-500;
+    @apply border-0 border-b-2  border-pink-300 focus:ring-0 focus:outline-none focus:border-b-pink-500;
   }
 }

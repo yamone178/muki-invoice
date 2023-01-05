@@ -1,4 +1,5 @@
 import React from 'react'
+import InputBox from './InputBox'
 
 const InputForm = () => {
   return (
@@ -8,31 +9,20 @@ const InputForm = () => {
         <form action="" className=' p-4 border grid grid-cols-12 gap-5'>
 
             <div className="col-span-5">
+            
+            <InputBox label="N0" type="number" width = 'w-[200px]'/>
 
-
-            <div className="flex justify-between  mb-3">
-                <label htmlFor="name" className=''>No</label>
-                <input id='name' type="text" className='input-box'/>
-            </div>
 
             </div>
 
             <div className="col-span-7">
             <div className="">
-                <div className="flex justify-between mb-3">
-                        <label htmlFor="date" className=''>Date</label>
-                        <input id='date' type="date" className='w-[250px] input-box'/>
-                </div>
+                <InputBox label="Date" type="date" />
 
-                <div className="flex justify-between mb-3">
-                        <label htmlFor="name" className=''>Name</label>
-                        <input id='name' type="text" className='w-[250px] input-box'/>
-                </div>
+                <InputBox label="Name" type="text" />
 
-                <div className="flex justify-between mb-3">
-                        <label htmlFor="phone" className=''>Phone</label>
-                        <input id='phone' type="number" className='w-[250px] input-box'/>
-                </div>
+                <InputBox label="Phone" type="number" />
+
 
                 <div className="flex justify-between mb-3">
                         <label htmlFor="address" className=''>Address</label>
